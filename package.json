@@ -1,0 +1,37 @@
+{
+  "name": "color-flip",
+  "version": "1.0.0",
+  "description": "Convert colors between RGB, HEX, and HSL formats",
+  "keywords": [
+    "color",
+    "convert",
+    "conversion",
+    "rgb",
+    "hex",
+    "hsl"
+  ],
+  "homepage": "https://github.com/textencoder/color-flip",
+  "bugs": {
+    "url": "https://github.com/textencoder/color-flip/issues"
+  },
+  "author": "textencoder",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/textencoder/color-flip.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
+  }
+}
