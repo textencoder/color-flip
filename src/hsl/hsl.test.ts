@@ -2,32 +2,28 @@ import hslToRgb from './hsl.js';
 import { test, expect, describe } from 'vitest';
 
 describe('hslToRgb', () => {
-  test('converts 0, 0.00, 50.20', () => {
-    expect(hslToRgb(0, 0.0, 50.2)).toStrictEqual({ r: 128, g: 128, b: 128 });
+  test('converts 0, 0, 50', () => {
+    expect(hslToRgb(0, 0, 50)).toStrictEqual({ r: 128, g: 128, b: 128 });
   });
-  test('converts 0, 0.00, 39.60', () => {
-    expect(hslToRgb(0, 0.0, 39.6)).toStrictEqual({ r: 101, g: 101, b: 101 });
+  test('converts 0, 0, 39', () => {
+    expect(hslToRgb(0, 0, 39)).toStrictEqual({ r: 99, g: 99, b: 99 });
   });
-  test('converts 0, 0.00, 31.40', () => {
-    expect(hslToRgb(0, 0.0, 31.4)).toStrictEqual({ r: 80, g: 80, b: 80 });
+  test('converts 0, 0, 31', () => {
+    expect(hslToRgb(0, 0, 31)).toStrictEqual({ r: 79, g: 79, b: 79 });
   });
-  test('converts 0, 0.00, 20.80', () => {
-    expect(hslToRgb(0, 0.0, 20.8)).toStrictEqual({ r: 53, g: 53, b: 53 });
+  test('converts 0, 0, 20', () => {
+    expect(hslToRgb(0, 0, 20)).toStrictEqual({ r: 51, g: 51, b: 51 });
   });
-  /*
-  test('converts 56, 100.00, 76.70', () => {
-    expect(hslToRgb(56, 100.0, 76.7)).toStrictEqual({ r: 255, g: 248, b: 136 });
+  test('converts 56, 100, 76', () => {
+    expect(hslToRgb(56, 100, 76)).toStrictEqual({ r: 255, g: 247, b: 133 });
   });
-  */
-  test('converts 26, 71.20, 53.70', () => {
-    expect(hslToRgb(26, 71.2, 53.7)).toStrictEqual({ r: 221, g: 126, b: 53 });
+  test('converts 26, 71, 53', () => {
+    expect(hslToRgb(26, 71, 53)).toStrictEqual({ r: 220, g: 124, b: 50 });
   });
-  /*
-  test('converts 74, 64.30, 59.40', () => {
-    expect(hslToRgb(74, 64.3, 59.4)).toStrictEqual({ r: 186, g: 218, b: 85 });
+  test('converts 74, 64, 59', () => {
+    expect(hslToRgb(74, 64, 59)).toStrictEqual({ r: 186, g: 217, b: 84 });
   });
-  */
-  test('converts 99, 30.80, 74.50', () => {
-    expect(hslToRgb(99, 30.8, 74.5)).toStrictEqual({ r: 184, g: 210, b: 170 });
+  test('converts 99, 30, 74', () => {
+    expect(hslToRgb(99, 30, 74)).toStrictEqual({ r: 183, g: 209, b: 169 });
   });
 });
