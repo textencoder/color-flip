@@ -1,5 +1,11 @@
 # color-flip
 
+## 0.1.1
+
+### Patch Changes
+
+- 383871e: "Official beta release"
+
 ## 0.1.0
 
 ### Minor Changes
