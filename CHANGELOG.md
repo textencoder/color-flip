@@ -1,5 +1,11 @@
 # color-flip
 
+## 0.1.0
+
+### Minor Changes
+
+- 2dab6e1: "Beta release"
+
 ## 0.0.2
 
 ### Patch Changes
