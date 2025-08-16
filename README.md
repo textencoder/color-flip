@@ -1,6 +1,6 @@
 # color-flip
 
-```color-flip``` is a lightweight and dependency-free library for converting between HEX, HSL, and RGB formats.
+`color-flip` is a lightweight and dependency-free library for converting between HEX, HSL, and RGB formats.
 
 ## Install
 
