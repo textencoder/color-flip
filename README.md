@@ -30,8 +30,8 @@ flip.hsl.toHex(86, 54, 92)
 
 The `flip` object provides utility methods for converting between **RGB**, **HSL**, and **HEX** color formats.
 
-#### **RGB**
-##### `flip.rgb.toHsl(r, g, b)`
+### **RGB**
+#### `flip.rgb.toHsl(r, g, b)`
 Converts an RGB color to HSL.
 
 **Parameters:**
