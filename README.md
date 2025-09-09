@@ -3,9 +3,9 @@
 `color-flip` is a lightweight and dependency-free library for converting between HEX, HSL, and RGB formats.
 
 <p align="center">
-  <!-- <a href="https://github.com/textencoder/color-flip/actions/workflows/ci.yml">
+  <a href="https://github.com/textencoder/color-flip/actions/workflows/ci.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/textencoder/color-flip/ci.yml" alt="Github Actions">
-  </a> -->
+  </a>
   <a href="https://www.npmjs.com/package/color-flip">
     <img src="https://img.shields.io/npm/v/color-flip" alt="Version">
   </a>
