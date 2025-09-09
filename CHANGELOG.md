@@ -1,5 +1,11 @@
 # color-flip
 
+## 0.2.1
+
+### Patch Changes
+
+- 514a851: Updated documentation for ease of use
+
 ## 0.2.0
 
 ### Minor Changes

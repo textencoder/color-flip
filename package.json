@@ -1,6 +1,6 @@
 {
   "name": "color-flip",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Convert colors between RGB, HEX, and HSL formats",
   "keywords": [
     "color",
